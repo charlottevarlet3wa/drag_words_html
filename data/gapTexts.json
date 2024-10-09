@@ -1,42 +1,42 @@
 {
     "gapTexts": [
       {
-        "textArray": ["<", "_", ">Paragraphe<", "_", ">"],
+        "textArray": ["<", "_", ">Paragraphe</", "_", ">"],
         "targetWords": ["p", "p"],
         "otherWords": ["li", "li", "span", "span"]
       },
       {
-        "textArray": ["_", "h1>Titre", "_", "h1>"],
+        "textArray": ["_", "h1>Titre", "_", "/h1>"],
         "targetWords": ["<", "<"],
         "otherWords": ["p", "p"]
       },
       {
-        "textArray": ["<", "_", ">Lien hypertexte<", "_", ">"],
+        "textArray": ["<", "_", ">Lien hypertexte</", "_", ">"],
         "targetWords": ["a", "a"],
         "otherWords": ["link", "button", "span", "p", "link", "button", "span", "p"]
       },
       {
-        "textArray": ["<", "_", ">En-tête<", "_", ">"],
+        "textArray": ["<", "_", ">En-tête</", "_", ">"],
         "targetWords": ["header", "header"],
         "otherWords": ["footer", "article", "aside", "nav", "footer", "article", "aside", "nav"]
       },
       {
-        "textArray": ["<", "_", ">Bas de page<", "_", ">"],
+        "textArray": ["<", "_", ">Bas de page</", "_", ">"],
         "targetWords": ["footer", "footer"],
         "otherWords": ["header", "article", "section", "aside", "header", "article", "section", "aside"]
       },
       {
-        "textArray": ["<", "_", ">Titre secondaire<", "_", ">"],
+        "textArray": ["<", "_", ">Titre secondaire</", "_", ">"],
         "targetWords": ["h2", "h2"],
         "otherWords": ["h3", "h1", "p", "span", "h3", "h1", "p", "span"]
       },
       {
-        "textArray": ["<", "_", ">Barre de navigation<", "_", ">"],
+        "textArray": ["<", "_", ">Barre de navigation</", "_", ">"],
         "targetWords": ["nav", "nav"],
         "otherWords": ["div", "section", "aside", "footer", "div", "section", "aside", "footer"]
       },
       {
-        "textArray": ["<", "_", ">Info supplémentaires<", "_", ">"],
+        "textArray": ["<", "_", ">Info supplémentaires</", "_", ">"],
         "targetWords": ["aside", "aside"],
         "otherWords": ["section", "article", "div", "footer", "section", "article", "div", "footer"]
       }
