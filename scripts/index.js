@@ -24,7 +24,7 @@ const config = {
 let game = new Phaser.Game(config); // Créer le canvas immédiatement
 let draggableWords = []; // Tableau pour stocker les mots draggables
 let score = 0; // Initialiser le score à 0
-let timer = 60; // Temps de départ du chrono
+let timer = 120; // Temps de départ du chrono
 let highscore = localStorage.getItem("highscore") || 0; // highscore sauvegardé
 let gameOver = false;
 let timerEvent = null; // Stocker l'événement du timer
@@ -79,7 +79,7 @@ function endGame() {
 function resetGame() {
   // Réinitialiser les variables globales du jeu
   score = 0;
-  timer = 10;
+  timer = 120;
   gameOver = false;
 
   // Réinitialiser l'affichage
